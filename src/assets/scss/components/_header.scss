@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+border-bottom: 1px solid #f0eed1;
+  .container {
+    display: flex;
+    .logo {
+      width: 20%;
+      margin: 15px;
+      a {
+        color: #151515;
+        font-size: 26px;
+        font-weight: 550;
+        cursor: pointer;
+        &:hover {
+          color: rgb(218, 26, 26);
+        }
+      }
+    }
+    .navBar {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .navList {
+        display: flex;
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       gap: 10px;
+       a {
+        font-size: 1rem;
+        padding: 0.8em 2em;
+        background-color: #ffab00;
+        border: 3px solid yellow;
+        border-radius: 1em;
+        color: #fff;
+        font-weight: bolder;
+        transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+        box-shadow: -5px 5px 0px 0px #a90534;
+        &:hover{
+          transform: translate(5px, -5px);
+          color: #a90534;
+        }
+      }
+      
+        }
+      }
+    }
+
+}

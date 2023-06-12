@@ -1,0 +1,13 @@
+//BASE
+@import "./base";
+
+//COMPONENTS
+@import "./components/header";
+@import "./components/footer";
+@import "./components/notFound";
+
+//PAGES
+@import "./pages/home";
+@import "./pages/allProducts";
+@import "./pages/createProduct";
+@import "./pages/editProduct";
